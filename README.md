@@ -1,2 +1,2 @@
-# chanalex2024.github.io
+# EmbeddedChan.github.io
 this is the index
