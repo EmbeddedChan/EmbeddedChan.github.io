@@ -5,87 +5,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EmbeddedChan - Developer Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; max-width: 800px; margin: auto; background: #f5f5f5; }
-    h1 { color: #333; }
-    .section { margin-bottom: 2rem; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
     a { color: #007acc; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    code { background: #eee; padding: 2px 5px; border-radius: 4px; }
+    code {
+      background: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.5rem 0; }
+    .highlight {
+      color: #2563eb;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I’m <strong>EmbeddedChan</strong></h1>
-  <p>I’m a displaced hardware engineer, creating Android apps against the odds. Your support means survival — and fuels continuous innovation.
- 
-🔧 Services I can help with:
- 
- 
-- Custom Android app development
- 
-- Schematic design
- 
-- PCB layout
- 
-- Coding assistance</p>
+  <div class="container">
+    <div class="section">
+      <h1>👋 Hi, I’m <span class="highlight">EmbeddedChan</span></h1>
+      <p>
+        I’m a displaced hardware engineer, creating Android apps against the odds.<br>
+        Your support means survival — and fuels continuous innovation.
+      </p>
+      <h2>🔧 Services</h2>
+      <ul>
+        <li>Custom Android app development</li>
+        <li>Schematic design</li>
+        <li>PCB layout</li>
+        <li>Coding assistance</li>
+      </ul>
+    </div>
 
-  <div class="section">
-  <h2>🔧 Skills</h2>
-  <ul>
-    <li><strong>Programming Languages:</strong> C, C++, Java, Python</li>
-    <li><strong>Embedded Systems:</strong> STM32 (HAL/LL), peripheral drivers, basic RTOS, low-level debugging</li>
-    <li><strong>Networking & Devices:</strong> Basic knowledge of switches, routers, storage systems</li>
-    <li><strong>Mobile Development:</strong> Android Studio, Java, XML UI, SQLite</li>
-    <li><strong>Hardware Design:</strong> KiCad, PCB schematic & layout design, circuit prototyping</li>
-  </ul>
-</div>
+    <div class="section">
+      <h2>🔧 Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> C, C++, Java, Python</li>
+        <li><strong>Embedded Systems:</strong> STM32 (HAL/LL), peripheral drivers, basic RTOS, low-level debugging</li>
+        <li><strong>Networking & Devices:</strong> Basic knowledge of switches, routers, storage systems</li>
+        <li><strong>Mobile Development:</strong> Android Studio, Java, XML UI, SQLite</li>
+        <li><strong>Hardware Design:</strong> KiCad, PCB schematic & layout design, circuit prototyping</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <h2>📌 Projects</h2>
-    <ul>
-      <li>
-        <strong><a href="https://github.com/EmbeddedChan/DroidOTDR" target="_blank">OTDR Sor Viewer</a></strong> – DroidOTDR DroidOTDR is an optical communication toolbox.
+    <div class="section">
+      <h2>📌 Projects</h2>
+      <ul>
+        <li>
+          <strong><a href="https://github.com/EmbeddedChan/DroidOTDR" target="_blank">OTDR Sor Viewer</a></strong> – DroidOTDR is an optical communication toolbox.<br>
+          Main function: analyzing and visualizing OTDR (Optical Time Domain Reflectometer) trace data.<br>
+          Includes:<br>
+          1. Fiber Optic Cable Color Code Tool (WIP)<br>
+          2. Optical Fiber Link Optical Power Budget Tool<br>
+          3. Power Unit Converter and Splitter Loss Calculator<br>
+          4. DWDM Channel Lookup Tool
+        </li>
+        <li>
+          <strong><a href="https://github.com/EmbeddedChan/ResCalc" target="_blank">ResCalc</a></strong> – Includes 111 popular power supply chips and provides extensive customization.<br>
+          Supports standard resistor series (E24, E48, E96) or import from Excel.  
+          If your chip isn’t listed, just set the Vref to calculate.
+        </li>
+      </ul>
+    </div>
 
-The main function is analyzing and visualizing OTDR (Optical Time Domain Reflectometer) trace data.
-It also integrates a toolbox, which currently includes the following optical communication tools, with more features under development.
+    <div class="section">
+      <h2>📬 Contact</h2>
+      <p>Email: <code>didadi8088@proton.me</code><br>
+         Telegram: <code>@Chen_pin_an</code></p>
+    </div>
 
-The DroidOTDR ToolKit currently includes the following tools:
+    <div class="section">
+      <h2>☕ Support</h2>
+      <p>If you find this app helpful, you can buy me a coffee:</p>
 
-1. Fiber Optic Cable Color Code Tool(Work in progress)
-2. Optical Fiber Link Optical Power Budget Tool
-3. Power Unit Converter and Splitter Loss Calculator.
-4. DWDM Channel Lookup Tool
-      </li>
-      <li>
-        <strong><a href="https://github.com/EmbeddedChan/ResCalc" target="_blank">ResCalc</a></strong> – This tool includes 111 popular power supply chips.and provides a wide range of customization options.You can choose from standard resistor series such as E24, E48, and E96, or import your own resistor library from Excel.If your chip is not listed, simply set the Vref to calculate.
-      </li>
-    </ul>
-  </div>
+      <p><strong>PayPal (USD / any currency):</strong><br>
+      <a href="https://www.paypal.me/didadi2024" target="_blank">paypal.me/didadi2024</a></p>
 
+      <p><strong>TronLink (TRX / USDT):</strong><br>
+      <code>TCjJuPGA2kCLcW1Bn4nPyitPNvjuEam1W4</code></p>
 
+      <p><strong>BlueWallet (Bitcoin address):</strong><br>
+      <code>bc1qnandmddtn7c5vyrcdc8khkphjvtfwp92pm4xl4</code></p>
 
-  <div class="section">
-    <h2>📬 Contact</h2>
-    <p>Email: <code>didadi8088@proton.me</code><br>
-       Telegram: <code>@Chen_pin_an</code></p>
-  </div>
+      <p><strong>MetaMask (ETH / BSC):</strong><br>
+      <code>0xCed80d906310D26A6a4152708B4EFf14718a6100</code></p>
 
-<div class="section">
- <h2>☕ Support</h2>
-<p>If you find this app helpful, you can buy me a coffee</p>
-
-<p><strong>PayPal (USD / any currency):</strong><br>
-<a href="https://www.paypal.me/didadi2024" target="_blank">paypal.me/didadi2024</a></p>
-
-<p><strong>TronLink (TRX / USDT):</strong><br>
-<code>TCjJuPGA2kCLcW1Bn4nPyitPNvjuEam1W4</code></p>
-
-<p><strong>BlueWallet (Bitcoin address):</strong><br>
-<code>bc1qnandmddtn7c5vyrcdc8khkphjvtfwp92pm4xl4</code></p>
-
-<p><strong>MetaMask (ETH / BSC):</strong><br>
-<code>0xCed80d906310D26A6a4152708B4EFf14718a6100</code></p>
-
-    <p>Thank you! 🙏</p>
+      <p>Thank you! 🙏</p>
+    </div>
   </div>
 </body>
 </html>
