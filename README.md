@@ -10,7 +10,7 @@ Below are some of my apps and projects.
 
 ### 📱 Android Apps
 
-#### EC OTDR Viewer
+#### EC Fiber Toolkit
 A small Android app for viewing and analyzing **OTDR `.sor` files**.  
 It can parse the SOR file format and display the fiber trace and event information.
 
