@@ -17,7 +17,7 @@ It provides OTDR SOR file analysis, trace comparison, PDF report export, fiber c
 
 Designed for FTTH, ISP, and fiber maintenance work.
 
-https://github.com/EmbeddedChan/otdr-sor-parser
+https://github.com/EmbeddedChan/otdr-sor-viewer 
 
 ---
 
